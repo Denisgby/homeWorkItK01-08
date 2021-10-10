@@ -10,7 +10,7 @@
 	1.Moto 2.Cars 3.Rock and roll
 </textarea>
 <div>
-	<img src="https://avatars.githubusercontent.com/u/57345125?v=4" alt="Den4ik" width="100px">
+	<img id='imgMyFoto' src="https://avatars.githubusercontent.com/u/57345125?v=4" alt="Den4ik" width="100px">
 </div>
 <script>
 	// находим элемент по айдишнику и  результат (найденный элемент) присваиваем переменной firstNameEl
@@ -31,4 +31,18 @@
 	//выводим в консоль значение атрибута value в элементе textarea c ID = textHobby
 	var	textHobbyE1 = document.getElementById('textHobby')
 	console.log(textHobbyE1.value)
+	//выводим в консоль значение атрибута value в элементе img c ID = imgMyFoto, -----ошибка undefined т.к 
+	// value принимает только значения каторые можно ввести иливыбрать.
+	var imgMyFotoE1 = document.getElementById('imgMyFoto')
+	console.log(imgMyFotoE1.value)
+	//выводим в консоль значение атрибута alt в элементе img c ID = imgMyFoto
+	var imgMyFotoE1 = document.getElementById('imgMyFoto')
+	console.log(imgMyFotoE1.alt)
+	//выводим в консоль значение innerHTML в элементе select c ID = selectAdres 
+	var selectAdresE1 = document.getElementById('selectAdres')
+	console.log(selectAdresE1.innerHTML)
+
+	
+
+
 </script>
